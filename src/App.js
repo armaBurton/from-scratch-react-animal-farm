@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
+import Main from './Main/Main';
+import Footer from './Footer/Footer';
+import { animals } from './data';
+
+const date = new Date();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      <Header name = {`Alchemy Animal Farm`} />
+
+
+      <Main animals = { animals } />
+
+      <Footer year = { `${date.getFullYear() - 1} - ${date.getFullYear()}` } />
+    </section>
   );
 }
 
