@@ -1,5 +1,3 @@
-import './AnimalList';
-
 export default function AnimalList(props){
 
   return (

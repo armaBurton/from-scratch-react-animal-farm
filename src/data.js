@@ -3,7 +3,7 @@ export const animals = [
     name: 'Betsy the Cow',
     type: 'cow',
     says: 'Mooooooo!',
-    top: '38%',
+    top: '39%',
     left: '81%',
   },
   {
@@ -31,7 +31,7 @@ export const animals = [
     name: 'Charlotte the Spider',
     type: 'spider',
     says: 'Never hurry and never worry!',
-    top: '39%',
+    top: '41%',
     left: '54%',
   },
   {
